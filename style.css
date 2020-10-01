@@ -1,0 +1,25 @@
+* { margin:0; padding:0; border:0; }
+
+.light {
+	width:1000px;
+	height:300px;
+	border:10px #0000FF solid;
+	transform:translate(20%,20%);
+	background-image:url(image/5.jpg);
+	background-size:100% 100%;
+	animation:slider 20s infinite linear;
+}
+
+@keyframes slider {
+	0% { background-image:url(image/1.jpg); }
+	30% { background-image:url(image/2.jpg); }
+	60% { background-image:url(image/3.jpg); }
+	80% { background-image:url(image/4.jpg); }
+}
+h1 {
+	text-align:center;
+	margin-top:50px;
+}
+body {
+	background-color:rgba(30,40,20,0.5);
+}

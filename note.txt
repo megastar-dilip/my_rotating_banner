@@ -1,0 +1,4 @@
+slider -) it is a "simple name" given by use
+20s -) it is the "given time" to change the image
+infinite -) it can not stop & "run continously" with time
+linear -) with change time , the images are changed with "same speed" 
